@@ -1,15 +1,4 @@
-"""
-Marketing Budget Allocator — Streamlit App
 
-Visualizes how an advertising budget should be optimally split across
-marketing channels modeled with Hill response curves.
-
-The budget slider lives inside the Plotly figure itself, so the visualization
-updates fluidly as you drag (no Streamlit rerun on each tick).
-
-Run with:
-    streamlit run app.py
-"""
 
 import numpy as np
 import plotly.graph_objects as go
