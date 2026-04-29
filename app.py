@@ -8,7 +8,7 @@ import streamlit as st
 # Page setup
 # ──────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Marketing Budget Allocator",
+    page_title="Optimal marketing Budget Allocator",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -147,7 +147,7 @@ fig = make_subplots(
     rows=3, cols=1,
     row_heights=[0.58, 0.25, 0.14],
     vertical_spacing=0.16,
-    subplot_titles=("Response curves", "Allocation per channel", "Total profit"),
+    subplot_titles=("Response curves", "Optimal allocation per channel", "Total profit"),
 )
 
 # Static traces (don't change with budget): faded full curves for each active channel
